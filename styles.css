@@ -2,7 +2,7 @@
    Text is white on top of the image with a subtle dark overlay for legibility.
 */
 :root{
-  --bg:#ffffff;
+  --bg:#000000;
   --muted:#cfc6c9;
   --text:#ffffff;
   --accent:#f3eae8;
