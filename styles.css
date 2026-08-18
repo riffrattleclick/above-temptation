@@ -28,7 +28,7 @@ body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, '
 
 /* Poster hero as background image */
 .poster-wrap{position:relative;min-height:520px;display:flex;align-items:center;justify-content:center;background-color:#ffffff;background-image:url('hero.jpg');background-size:cover;background-position:center;color:var(--text)}
-.poster-overlay{position:relative;width:100%;background:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.55));padding:80px 0}
+.poster-overlay{position:relative;width:100%;padding:80px 0}
 .poster-content{padding:40px 0}
 
 .cast-names{display:flex;gap:12px;justify-content:center;margin-top:14px;color:var(--text);font-size:0.92rem;opacity:0.95}
