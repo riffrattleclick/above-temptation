@@ -2,12 +2,12 @@
    Text is white on top of the image with a subtle dark overlay for legibility.
 */
 :root{
-  --bg:#000000;
+  --bg:#010101;
   --muted:#cfc6c9;
   --text:#ffffff;
   --accent:#f3eae8;
   --cta:#ffffff;
-  --footer:#0e0708;
+  --footer:#ffffff;
   --container:1100px;
 }
 
@@ -17,17 +17,17 @@ body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, '
 .container{width:90%;max-width:var(--container);margin:0 auto}
 .center{text-align:center}
 
-.top-strap{padding:26px 0 6px;color:#111}
-.top-strap .studio{font-weight:700;letter-spacing:0.08em;font-size:0.8rem;color:#111}
-.top-strap .strap{font-size:0.86rem;color:#666;margin-top:6px}
+.top-strap{padding:26px 0 6px;color:#ffffff}
+.top-strap .studio{font-weight:700;letter-spacing:0.08em;font-size:0.8rem;color:#ffffff}
+.top-strap .strap{font-size:0.86rem;color:#ffffff;margin-top:6px}
 
 .hero-strap{padding:28px 0 12px;color:#111}
 .title{font-family:'Playfair Display', serif;font-size:4.6rem;margin:0;line-height:0.95;letter-spacing:-0.02em;color:#111}
-.byline{margin:12px 0;color:#6b6b6b;font-weight:500}
+.byline{margin:12px 0;color:#ffffff;font-weight:500}
 .cta{display:inline-block;background:#1a1317;color:#fff;padding:12px 22px;border-radius:4px;text-decoration:none;font-weight:600;margin-top:8px}
 
 /* Poster hero as background image */
-.poster-wrap{position:relative;min-height:520px;display:flex;align-items:center;justify-content:center;background-color:#000;background-image:url('hero.jpg');background-size:cover;background-position:center;color:var(--text)}
+.poster-wrap{position:relative;min-height:520px;display:flex;align-items:center;justify-content:center;background-color:#ffffff;background-image:url('hero.jpg');background-size:cover;background-position:center;color:var(--text)}
 .poster-overlay{position:relative;width:100%;background:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.55));padding:80px 0}
 .poster-content{padding:40px 0}
 
@@ -38,17 +38,17 @@ body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, '
 .icon{color:var(--text);text-decoration:none;opacity:0.95}
 .icon svg{display:block}
 
-.info{padding:48px 0 56px;display:grid;grid-template-columns:1fr 360px;gap:36px;align-items:start;color:#111}
-.synopsis h2{margin-top:0;font-family:'Playfair Display', serif;color:#111}
-.synopsis p{color:#333}
-.details ul{list-style:none;padding:0;margin:0;color:#333}
+.info{padding:48px 0 56px;display:grid;grid-template-columns:1fr 360px;gap:36px;align-items:start;color:#ffffff}
+.synopsis h2{margin-top:0;font-family:'Playfair Display', serif;color:#ffffff}
+.synopsis p{color:#ffffff}
+.details ul{list-style:none;padding:0;margin:0;color:#ffffff}
 .details li{margin:8px 0}
 
 /* Footer */
-.site-footer{background:var(--footer);color:#e9e1e6;padding:36px 0}
+.site-footer{background:var(--footer);color:#ffffff;padding:36px 0}
 .footer-inner{display:flex;align-items:center;gap:20px;justify-content:space-between;flex-wrap:wrap}
 .brand-mark{width:56px;height:56px;border-radius:999px;background:#fff;color:var(--footer);display:flex;align-items:center;justify-content:center;font-weight:700}
-.footer-links a{color:#d9cfd4;text-decoration:none;margin:0 12px}
+.footer-links a{color:#ffffff;text-decoration:none;margin:0 12px}
 .footer-links a:hover{text-decoration:underline}
 
 /* Responsive */
