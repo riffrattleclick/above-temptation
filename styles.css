@@ -1,46 +1,47 @@
-/* Updated layout to match supplied reference (Image 1)
-   - big centered title, full-width poster image, centered CTA
-   - compact cast/credits below image
-   - dark footer band with small circular mark
+/* Updated to use hero.jpg as a full-width background (place the provided JPG as /hero.jpg).
+   Text is white on top of the image with a subtle dark overlay for legibility.
 */
 :root{
   --bg:#ffffff;
-  --muted:#6b6b6b;
-  --accent:#22121a;
-  --cta:#12060a;
-  --footer:#191213;
+  --muted:#cfc6c9;
+  --text:#ffffff;
+  --accent:#f3eae8;
+  --cta:#ffffff;
+  --footer:#0e0708;
   --container:1100px;
 }
 
 *{box-sizing:border-box}
 html,body{height:100%}
-body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; color:var(--accent); background:var(--bg);}
+body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; color:var(--text); background:var(--bg);}
 .container{width:90%;max-width:var(--container);margin:0 auto}
 .center{text-align:center}
 
-.top-strap{padding:26px 0 6px}
-.top-strap .studio{font-weight:700;letter-spacing:0.08em;font-size:0.8rem}
-.top-strap .strap{font-size:0.86rem;color:var(--muted);margin-top:6px}
+.top-strap{padding:26px 0 6px;color:#111}
+.top-strap .studio{font-weight:700;letter-spacing:0.08em;font-size:0.8rem;color:#111}
+.top-strap .strap{font-size:0.86rem;color:#666;margin-top:6px}
 
-.hero-strap{padding:28px 0 12px}
-.title{font-family:'Playfair Display', serif;font-size:4.6rem;margin:0;line-height:0.95;letter-spacing:-0.02em}
-.byline{margin:12px 0;color:var(--muted);font-weight:500}
+.hero-strap{padding:28px 0 12px;color:#111}
+.title{font-family:'Playfair Display', serif;font-size:4.6rem;margin:0;line-height:0.95;letter-spacing:-0.02em;color:#111}
+.byline{margin:12px 0;color:#6b6b6b;font-weight:500}
 .cta{display:inline-block;background:#1a1317;color:#fff;padding:12px 22px;border-radius:4px;text-decoration:none;font-weight:600;margin-top:8px}
 
-.poster-wrap{background:#fff;padding:30px 0}
-.poster-image{display:block;margin:0 auto;max-width:1200px;width:100%;height:auto}
+/* Poster hero as background image */
+.poster-wrap{position:relative;min-height:520px;display:flex;align-items:center;justify-content:center;background-color:#000;background-image:url('hero.jpg');background-size:cover;background-position:center;color:var(--text)}
+.poster-overlay{position:relative;width:100%;background:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.55));padding:80px 0}
+.poster-content{padding:40px 0}
 
-.cast-names{display:flex;gap:12px;justify-content:center;margin-top:14px;color:var(--muted);font-size:0.82rem}
+.cast-names{display:flex;gap:12px;justify-content:center;margin-top:14px;color:var(--text);font-size:0.92rem;opacity:0.95}
 .cast-names span{white-space:nowrap}
 
 .social{display:flex;gap:18px;justify-content:center;margin:18px 0}
-.icon{color:var(--muted);text-decoration:none}
+.icon{color:var(--text);text-decoration:none;opacity:0.95}
 .icon svg{display:block}
 
-.info{padding:48px 0 56px;display:grid;grid-template-columns:1fr 360px;gap:36px;align-items:start}
-.synopsis h2{margin-top:0;font-family:'Playfair Display', serif}
-.synopsis p{color:var(--muted)}
-.details ul{list-style:none;padding:0;margin:0;color:var(--muted)}
+.info{padding:48px 0 56px;display:grid;grid-template-columns:1fr 360px;gap:36px;align-items:start;color:#111}
+.synopsis h2{margin-top:0;font-family:'Playfair Display', serif;color:#111}
+.synopsis p{color:#333}
+.details ul{list-style:none;padding:0;margin:0;color:#333}
 .details li{margin:8px 0}
 
 /* Footer */
@@ -60,4 +61,5 @@ body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, '
   .title{font-size:2.2rem}
   .cta{padding:10px 16px}
   .cast-names{flex-direction:column;gap:6px}
+  .poster-overlay{padding:40px 0}
 }
