@@ -54,8 +54,6 @@ body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, '
 /* Responsive */
 @media (max-width:980px){
   .title{font-size:3rem}
-  .info{grid-template-columns:1fr}
-  .details{order:2}
 }
 @media (max-width:540px){
   .title{font-size:2.2rem}
