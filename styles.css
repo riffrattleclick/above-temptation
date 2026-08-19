@@ -19,7 +19,7 @@ body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, '
 .poster-wrap{position:relative;min-height:360px;max-height:1080px;display:flex;align-items:center;justify-content:center;background-color:var(--bg);background-image:url('hero.jpg');background-size:cover;background-position:center;color:var(--text)}
 .poster-overlay{position:relative;width:100%;padding:35% 16% 20px}
 .poster-content{padding:40px 0;font-weight:700;letter-spacing:0.01em;font-size:0.8rem;color:#adadad;}
-.poster-content .title{font-size: 1rem;letter-spacing: 0.02em;color: brown;}
+.poster-content p{font-size: 1rem;letter-spacing: 0.02em;color: brown;}
 
 .info{padding:48px 16% 56px;display:flex;flex-direction:column;gap:36px;align-items:start;font-weight:700;letter-spacing:0.08em;font-size:0.8rem;color:var(--text);width:100%}
 .details ul{list-style:none;padding:0;margin:0;color:var(--text)}
