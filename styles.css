@@ -33,7 +33,7 @@ body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, '
 
 /* Footer */
 .site-footer{background:var(--footer);color:var(--text);justify-items:center;padding:36px 0;margin: 0 auto;}
-.footer-inner{display:flex;align-items:center;gap:20px;justify-content:space-between;flex-wrap:wrap}
+.footer-inner{display:flex;align-items:center;gap:20px;justify-content:center;flex-wrap:wrap}
 .footer-links{display:flex;align-items:center;gap:18px;justify-content:center}
 .footer-links a{color:var(--text);text-decoration:none}
 .footer-links img{height:34px;display:block}
