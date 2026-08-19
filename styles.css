@@ -25,7 +25,7 @@ body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, '
 .details li{margin:8px 0}
 
 /* Footer */
-.site-footer{background:var(--footer);color:#ffffff;padding:36px 0;margin: 0 auto;}
+.site-footer{background:var(--footer);color:#ffffff;justify-items:center;padding:36px 0;margin: 0 auto;}
 .footer-inner{display:flex;align-items:center;gap:20px;justify-content:space-between;flex-wrap:wrap}
 .footer-links{display:flex;align-items:center;gap:18px;justify-content:center}
 .footer-links a{color:#ffffff;text-decoration:none}
@@ -43,5 +43,6 @@ body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, '
   .copyright{order:2}
 }
 @media (max-width:540px){
-  .poster-overlay{padding:35% 16% 20px}
+  .poster-overlay{padding:35% 5% 20px}
+  .info{padding:48px 5% 56px;}
 }
