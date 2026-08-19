@@ -2,9 +2,9 @@
 :root{
   --bg:#010101;
   --muted:#cfc6c9;
-  --text:#ffffff;
-  --accent:#f3eae8;
-  --cta:#ffffff;
+  --text:#dbe1e3;
+  --accent:#dbe1e3;
+  --cta:#dbe1e3;
   --footer:#010101;
   --container:1100px;
 }
@@ -18,9 +18,9 @@ body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, '
 /* Poster hero */
 .poster-wrap{position:relative;min-height:360px;max-height:1080px;display:flex;align-items:center;justify-content:center;background-color:#010101;background-image:url('hero.jpg');background-size:cover;background-position:center;color:var(--text)}
 .poster-overlay{position:relative;width:100%;padding:35% 16% 20px}
-.poster-content{padding:40px 0;font-weight:700;letter-spacing:0.08em;font-size:0.8rem;color:#ffffff}
+.poster-content{padding:40px 0;font-weight:700;letter-spacing:0.01em;font-size:0.8rem;color:#8ea2a9;font-style:italic;}
 
-.info{padding:48px 16% 56px;display:flex;flex-direction:column;gap:36px;align-items:start;font-weight:700;letter-spacing:0.08em;font-size:0.8rem;color:#ffffff}
+.info{padding:48px 16% 56px;display:flex;flex-direction:column;gap:36px;align-items:start;font-weight:700;letter-spacing:0.08em;font-size:0.8rem;color:#ffffff;width:100%}
 .details ul{list-style:none;padding:0;margin:0;color:#ffffff}
 .details li{margin:8px 0}
 
@@ -43,6 +43,6 @@ body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, '
   .copyright{order:2}
 }
 @media (max-width:540px){
-  .poster-overlay{padding:35% 5% 20px}
-  .info{padding:48px 5% 56px;}
+  .poster-overlay{padding:272px 40px 20px}
+  .info{padding:48px 40px 56px;}
 }
