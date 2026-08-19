@@ -21,8 +21,8 @@ body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, '
 .poster-content{padding:40px 0;font-weight:500;letter-spacing:0.01em;font-size:0.8rem;color:#adadad;}
 .poster-content p{font-size: 1rem;letter-spacing: 0.02em;color: #df2a2a;font-weight:700;font-size:xx-large;}
 
-.award-logo{width:100%;text-align:left;}
-.award-logo img{width:40%;height:auto;}
+.award-logo{width:100%;text-align:left;padding:40px 0px 0px 80px;}
+.award-logo img{width:22%;height:auto;}
 
 .info{padding:48px 16% 56px;display:flex;flex-direction:column;gap:36px;align-items:start;font-weight:700;letter-spacing:0.08em;font-size:0.8rem;color:var(--text);width:100%}
 .details{align-self:center;justify-items:center;}
@@ -51,5 +51,6 @@ body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, '
 @media (max-width:540px){
   .poster-overlay{padding:272px 40px 20px}
   .info{padding:48px 40px 56px;}
-  .award-logo img{width:100%;height:auto;}
+  .award-logo img{width:30%;height:auto;}
+  .award-logo{padding:0px;}
 }
