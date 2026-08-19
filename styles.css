@@ -1,7 +1,7 @@
 /* Footer updated: moved social to footer, removed brand mark and press link, replaced IMDb text link with logo image */
 :root{
   --bg:#010101;
-  --muted:#cfc6c9;
+  --muted:#dbe1e3;
   --text:#dbe1e3;
   --accent:#dbe1e3;
   --cta:#dbe1e3;
@@ -35,7 +35,7 @@ body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, '
 
 .footer-links a:hover{opacity:0.85}
 
-.copyright{color:#cfc6c9;text-align:center;width:100%}
+.copyright{color:#dbe1e3;text-align:center;width:100%}
 
 /* Responsive */
 @media (max-width:980px){
