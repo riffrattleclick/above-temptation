@@ -22,8 +22,9 @@ body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, '
 .poster-content p{font-size: 1rem;letter-spacing: 0.02em;color: brown;font-weight:700;}
 
 .info{padding:48px 16% 56px;display:flex;flex-direction:column;gap:36px;align-items:start;font-weight:700;letter-spacing:0.08em;font-size:0.8rem;color:var(--text);width:100%}
-.details ul{list-style:none;padding:0;margin:0;color:var(--text)}
-.details li{margin:8px 0}
+.details{align-self:center;justify-items:center;}
+.details ul{list-style:none;padding:0;margin:0;color:var(--text);display: flex;row-gap: 12px;font-size: xx-large;column-gap: 45px;flex-flow: wrap;justify-content: center;}
+.details li{margin:8px 0;text-wrap-mode: nowrap;}
 
 /* Footer */
 .site-footer{background:var(--footer);color:var(--text);justify-items:center;padding:36px 0;margin: 0 auto;}
